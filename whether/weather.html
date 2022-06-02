@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link  rel="stylesheet" href="weather.css">
+</head>
+<body>
+    
+    <div class="nav">
+        <div class="flex-container">
+            <h1 class="nav-title">Dojo weather</h1>
+            <ul class="nav-links">
+                <li><a onclick="ert(this)" href="#">Burbank</a></li>
+                <li><a href="#" class="active">chicago</a></li>
+                <li><a href="#">Dallas</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <h1 class="hh1">San Jose</h1>
+    <label id="temperature" onchange="ConvTemp(this.value)">show temperature in
+        <select name="whether" id="whther">
+            <option value="C"> °C</option>
+            <option value="F">°F</option>
+          </select> </label>
+          <p class="pp"></p>
+   
+<center>
+    <div class="row">
+        <div class="col">
+          <div class="box1">
+                <br><br><h2 >today</h2><br><br><br>
+                <img src="some_rain.png" alt="jane" >
+               <br> <br><p>some rain</p>
+               <h3 id="cold"> °18</h3>
+               <h3 id="hot"> °24</h3>
+
+              </div>
+            </div>
+
+            <div class="col">
+            <div class="box1">
+                <br><br><h2 >today</h2><br><br><br>
+                <img src="some_sun.png" alt="jane" >
+               <br> <br><p>some sun</p>
+               <h3 id="cold1"> °19</h3>
+               <h3 id="hot1"> °27</h3>
+              </div>
+            </div>
+
+            <div class="col">
+                <div class="box1">
+                    <br><br><h2 >today</h2><br><br><br>
+                    <img src="some_clouds.png" alt="jane" >
+                   <br> <br><p>some clouds</p>
+                   <h3 id="cold2"> °16</h3>
+               <h3 id="hot2"> °21</h3>
+                  </div>
+                </div>
+
+                <div class="col">
+                    <div class="box1">
+                        <br><br><h2 >today</h2><br><br><br>
+                        <img src="some_sun.png" alt="jane" >
+                       <br> <br><p>some sun</p>
+                       <h3 id="cold3"> °21</h3>
+               <h3  id="hot3"> °26</h3>
+                      </div>
+                    </div>
+        </div>
+
+        <div class="alert">
+            <img src="cookie.png" alt="jane" >
+            <h1 class="hone"> Stop cookie time !</h1>
+            <p class="brbr">Stop! Cookie time 1 Accept We use cookies (sadly not the edible ones) to personalize<br>
+                 content and ads, to provide social media features and to<br>
+                  analyse our traffic.<a href="#"> Read more..</a></p>
+                  <button onclick="remove(this)" class="btn">I Accept</button>
+        </div>
+   
+</center>
+
+<script src="wheather.js"> </script>
+
+</body>
+</html>

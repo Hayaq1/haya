@@ -1,0 +1,72 @@
+
+.containe{
+
+    width: 900px;
+    height: 900px;
+    background-color: rgb(239, 224, 224);
+    margin: 0px auto;
+    text-align: center;
+    
+}
+
+.h1{
+font-style: italic;
+color: black;
+background-color: rgb(151, 117, 117);
+font-weight: bold;
+
+}
+
+img{
+    height: 150px;
+    width: 150;
+    
+}
+#dojo {
+    margin: 0px auto;
+    width: 400px;
+    height: 200px;
+    background-color: rgb(155, 198, 202);
+    display: flex;
+    padding-left: 150px;
+    padding-right: 180px;
+    padding-top: 10px;
+}
+
+#jo {
+    margin: 0px auto;
+    width: 400px;
+    height: 200px;
+    background-color: rgb(202, 155, 196);
+    display: flex;
+    padding-left: 150px;
+    padding-right: 180px;
+    padding-top: 10px;
+}
+
+#o {
+    margin: 0px auto;
+    width: 400px;
+    height: 200px;
+    background-color: rgb(241, 240, 217);
+    display: flex;
+    padding-left: 150px;
+    padding-right: 180px;
+    padding-top: 10px;
+}
+
+/* CSS reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+      
+  /* Fixed width container class that will "auto-center" itself */
+  .container {
+    width: 1200px;
+    margin: 0 auto;
+  }
+  
+  
+

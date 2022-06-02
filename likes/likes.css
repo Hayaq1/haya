@@ -1,0 +1,256 @@
+.nav{
+    width: 1250px;
+    height:40px;
+    background-color: rgb(32, 29, 29);
+    padding:15px;
+    margin: 0px auto;
+    display: flex;
+    font-family: monospace;
+ }
+ 
+ .btn{
+ background-color: aqua;
+ box-shadow: 5px 5px 5px
+ border cornsilk;
+ position :relative;
+ left:500px;
+ }
+ 
+ .nav-title{
+     display: flex;
+     align-items: center;
+     color:white;
+     justify-content: flex-start;
+     position :relative;
+     left:150px;
+ 
+ }
+ 
+ .nav-links{
+     align-items: center;
+     display: flex;
+     justify-content: flex-end;
+     padding-left: 330px;
+     position :relative;
+     right:180px;
+ }
+
+
+
+.profile{
+    border: solid;
+    width: 300px;
+    height: 350px;
+    background-color: white;
+    box-shadow: 5px 5px 5px black;
+    font-family:verdana;
+    border-style: solid;
+    border-color: grey;
+   margin: 0 1350px;
+   position: relative;
+   left:-1250px;
+}
+ 
+.likeone{
+    border: solid;
+    width: 500px;
+    height: 250px;
+    background-color: white;
+    box-shadow: 5px 5px 5px black;
+    font-family:verdana;
+    border-style: solid;
+    border-color: grey;
+   margin: 0 1350px;
+   position: relative;
+   right:800px;
+   bottom:350px;
+}
+
+.move{
+    position: relative;
+    bottom:40px;
+    left:280px;
+}
+.cont2 {
+    border: solid;
+    width: 500px;
+    height: 250px;
+    background-color: white;
+    box-shadow: 5px 5px 5px black;
+    font-family:verdana;
+    border-style: solid;
+    border-color: grey;
+   margin: 0 1350px;
+   position: relative;
+   right:800px;
+   bottom:350px;
+}
+.co2{
+    text-align: left;
+    color: black;
+    font-size: 30px;
+    margin-top: 30px;
+}
+.cont2 h1{
+    color: black;
+    font-size: 20px;
+    text-align: left;
+   
+}
+.cont2 label{
+color: black;
+    font-size: 20px;
+    text-align: right;
+    margin-right: 50px; 
+    margin-top: -30px;
+}
+.cont2 button{
+
+    color: black;
+    font-size: 20px;
+    text-align: right;
+    margin-right: -220px; 
+    margin-top: -30px;
+}
+.cont1 {
+    border: solid;
+    width: 500px;
+    height: 250px;
+    background-color: white;
+    box-shadow: 5px 5px 5px black;
+    font-family:verdana;
+    border-style: solid;
+    border-color: grey;
+   margin: 0 1350px;
+   position: relative;
+   right:800px;
+   bottom:350px;
+}
+.co1{
+    text-align: left;
+    color: black;
+    font-size: 30px;
+    margin-top: 60px;
+}
+.cont1 h1{
+    color: black;
+    font-size: 20px;
+    text-align: left;
+    margin-top: 10px;
+   
+}
+.cont1 label{
+    color: black;
+    font-size: 20px;
+    text-align: left;
+    margin-top: 20px;
+    
+   
+}
+.cont1 button{
+    margin-right: -220px;
+    color: black;
+    font-size: 20px;
+    text-align: left;
+    margin-top: -150px;
+    margin-left: 30px;
+}
+.cont1 h2{
+
+    color: black;
+    font-size: 20px;
+    text-align: right;
+    margin-right: 90px; 
+    margin-top: -40px;
+}
+
+.cont {
+    border: solid;
+    width: 500px;
+    height: 250px;
+    background-color: white;
+    box-shadow: 5px 5px 5px black;
+    font-family:verdana;
+    border-style: solid;
+    border-color: grey;
+   margin: 0 1350px;
+   position: relative;
+   right:800px;
+   bottom:350px;
+}
+.co{
+    text-align: left;
+    color: black;
+    font-size: 30px;
+    margin-top: 60px;
+}
+.cont h1{
+    color: black;
+    font-size: 20px;
+    text-align: left;
+    margin-top: 10px;
+   
+}
+.cont label{
+    color: black;
+    font-size: 20px;
+    text-align: left;
+    margin-top: 20px;
+    
+   
+}
+.cont button{
+    margin-right: -220px;
+    color: black;
+    font-size: 20px;
+    text-align: left;
+    margin-top: -150px;
+    margin-left: 30px;
+}
+.cont h2{
+
+    color: black;
+    font-size: 20px;
+    text-align: right;
+    margin-right: 90px; 
+    margin-top: -40px;
+}
+
+#button {
+    position: relative;
+    bottom:40px;
+    left :200px;
+}
+
+#button2 {
+    position: relative;
+    bottom:40px;
+    left :200px;
+}
+
+#button3 {
+    position: relative;
+    bottom:40px;
+    left :200px;
+}
+
+#display{
+    position: relative;
+    bottom:40px;
+    left :200px;
+
+}
+
+#display2{
+    position: relative;
+    bottom:40px;
+    left :200px;
+
+}
+
+#display3{
+    position: relative;
+    bottom:40px;
+    left :200px;
+
+}

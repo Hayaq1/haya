@@ -1,0 +1,21 @@
+.container {
+    width: 720px;
+    height: 250px;
+    background-color: silver;
+}
+.col {
+    width: 220px;
+    padding: 10px;
+    background-color: blanchedalmond;
+    display: inline-block;
+}
+
+
+
+#dojo {
+    width: 1000px;
+    height: 200px;
+    background-color: grey;
+    
+}
+

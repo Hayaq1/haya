@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <!-- <script src="fizzbuzz.js"></script> -->
+
+</head>
+<body>
+   
+    <!-- <h3 onclick="fizz()">Click here </h3>
+    <h1 id="title" >Hello World</h1> -->
+    <h1 > Aparagrabph </h1>
+    <h2 > Aparagrabph </h2>
+    <p > Aparagrabph <p>
+    <h2 class="example"> Aparagrabph </h2>
+<p class="example"> Aparagrabph </p>
+<button onclick="changeText()">Click</button>
+    <script>
+        const nodeList=document.querySelectorAll(".example");
+        for(var i=0;i<nodeList.length; i++){
+            nodeList[i].style.backgroundColor="aqua";
+        }
+
+        // var a =document.querySelectorAll("h1");
+        // cosole.log('a');
+
+        function changeText(){
+            var a=document.querySelector("h1");
+            a.innerText ="New Update title";
+        }
+    </script>
+    </body>
+    
+    </html>

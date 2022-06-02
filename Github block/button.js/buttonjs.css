@@ -1,0 +1,156 @@
+.nav{
+    width: 1250px;
+    height:40px;
+    background-color: rgb(32, 29, 29);
+    padding:15px;
+    margin: 0px auto;
+    display: flex;
+    font-family: monospace;
+    border: solid;
+   
+ }
+ 
+ .active{
+     font-family: cursive;
+     font-size:16px;
+     font-weight: light;
+  }
+ 
+ 
+ li{
+     margin:10px;
+     list-style-type: none;
+ }
+ 
+ a:link{
+ text-decoration: none;
+ color: aliceblue;
+ }
+ 
+ 
+ .btn{
+ background-color: aqua;
+ box-shadow: 5px 5px 5px
+ border cornsilk;
+ position :relative;
+ left:500px;
+ }
+ 
+ 
+ .nav-title{
+     display: flex;
+     align-items: center;
+     color:white;
+     justify-content: flex-start;
+     position :relative;
+     left:150px;
+ 
+ }
+ 
+ .nav-links{
+     align-items: center;
+     display: flex;
+     justify-content: flex-end;
+     padding-left: 330px;
+     position :relative;
+     right:180px;
+ }
+
+
+
+
+
+
+ .grey {
+    
+    width: 600px;
+    margin: 0 auto;
+    height: 200px;
+    box-shadow: 4px 4px 4px grey;
+   position :relative;
+   top:20px;
+   right:180px;
+   border-color: black;
+  
+  }
+
+  .white{
+    width: 600px;
+    height: 100px;
+    position :relative;
+    margin: 0 auto;
+}
+
+h5{
+    font-size: 30px;
+    padding-bottom: 10px;
+    position :relative;
+    top:30px;
+    left:20px;
+    color:rgb(30, 31, 31);
+}
+.bt{
+ background-color: rgba(136, 255, 0, 0.724);
+ box-shadow: 5px 5px 5px
+ border cornsilk;
+ height: 50px;
+ width:150px;
+ position :relative;
+ left:100px; 
+ right:100px;
+ bottom: 10px;
+}
+
+.bto{
+    background-color: rgb(242, 255, 0);
+    box-shadow: 5px 5px 5px
+    border cornsilk;
+    position :relative;
+    left:10px;
+    bottom: 20px;
+   }
+
+.gr {
+    
+    width: 400px;
+    margin: 0 auto;
+    height: 200px;
+    box-shadow: 4px 4px 4px grey;
+   position :relative;
+   bottom:230px;
+   left:400px;
+   border-color: black;
+   
+  }
+
+  .whte{
+    width: 600px;
+    height: 100px;
+    position :relative;
+    margin: 0 auto;
+}
+
+.ey {
+    
+    width: 600px;
+    margin: 0 auto;
+    height: 200px;
+    box-shadow: 4px 4px 4px grey;
+   position :relative;
+   bottom:200px;
+   right:180px;
+   border-color: black;
+  }
+
+  .te{
+    width: 600px;
+    height: 100px;
+    position :relative;
+    margin: 0 auto;
+}
+
+.v{
+position: relative;
+left:120px;
+bottom:20px;
+}

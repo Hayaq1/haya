@@ -1,0 +1,29 @@
+h1{
+    color: aliceblue;
+    background-color:black; 
+    text-align:left ;
+     font-family: cursive;
+    }
+    span{
+        color:rgb(0, 255, 255)
+      
+    }
+
+    h2{
+        background-color:rgb(116, 40, 151);
+        text-align:center;
+        color:white;
+        font-style: italic;
+        font-family: sans-serif;
+    }
+
+    h3{
+        background-color:rgb(166, 222, 237);
+        text-align:right ;
+        color:rgb(9, 5, 69);
+        text-decoration: underline;
+    }
+
+
+   
+    

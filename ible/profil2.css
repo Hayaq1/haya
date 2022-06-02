@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    position :relative;
+  }
+  .container {
+    
+    width: 800px;
+    margin: 0 auto;
+    height: 355px;
+    box-shadow: 4px 4px 4px grey;
+   position :relative;
+   top:20px;
+   
+  }
+  h1 {
+    font-size: 30px;
+    padding-bottom: 10px;
+  
+    font-family: cursive;
+    position :relative;
+    top:10px;
+  }
+
+.subcontainer{
+    background-color: aqua;
+    width: 800px;
+    height: 100px;
+    position :relative;
+    margin: 0 auto;
+}
+
+.map{
+    height: 50px;
+    width: 50;  
+    position :relative;
+}
+
+.img{
+    margin: 1px;
+    padding: 20px;
+    position :relative;
+    top:20px;
+}
+.su{
+    position :relative;
+    top:20px;
+}
